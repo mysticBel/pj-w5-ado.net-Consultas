@@ -48,6 +48,24 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="DAOVendedor.cs" />
+    <Compile Include="frmFacturasxFechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacturasxFechas.Designer.cs">
+      <DependentUpon>frmFacturasxFechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendedorxDistrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendedorxDistrito.Designer.cs">
+      <DependentUpon>frmVendedorxDistrito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoGeneral.Designer.cs">
+      <DependentUpon>ListadoGeneral.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
