@@ -27,7 +27,7 @@ namespace pj_w5_ado.net_Consultas
         public DataTable listadoDistritos()
         {
             cn = objCon.getConecta();
-            SqlDataAdapter da = new SqlDataAdapter("SP_LISTADISTRITOS", cn);
+            SqlDataAdapter da = new SqlDataAdapter("SP_LISTADODISTRITOS", cn);
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt;
