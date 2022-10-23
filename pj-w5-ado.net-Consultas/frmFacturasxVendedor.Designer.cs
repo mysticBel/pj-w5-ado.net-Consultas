@@ -1,6 +1,6 @@
 ﻿namespace pj_w5_ado.net_Consultas
 {
-    partial class ListadoGeneral
+    partial class frmFacturasxVendedor
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "ListadoGeneral";
+            this.Text = "frmFacturasxVendedor";
         }
 
         #endregion

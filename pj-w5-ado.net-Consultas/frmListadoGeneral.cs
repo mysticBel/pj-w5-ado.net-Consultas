@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace pj_w5_ado.net_Consultas
 {
-    public partial class ListadoGeneral : Form
+    public partial class frmListadoGeneral : Form
     {
-        public ListadoGeneral()
+        DAOVendedor objDAO = new DAOVendedor();
+        public frmListadoGeneral()
         {
             InitializeComponent();
+        }
+
+        private void frmListadoGeneral_Load(object sender, EventArgs e)
+        {
+            dgVendedores.DataSource = objDAO.listadoGeneral();
         }
     }
 }

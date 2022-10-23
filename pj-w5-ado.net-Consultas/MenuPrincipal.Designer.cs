@@ -88,26 +88,30 @@
             // listadoGeneralToolStripMenuItem
             // 
             this.listadoGeneralToolStripMenuItem.Name = "listadoGeneralToolStripMenuItem";
-            this.listadoGeneralToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listadoGeneralToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.listadoGeneralToolStripMenuItem.Text = "Listado General";
+            this.listadoGeneralToolStripMenuItem.Click += new System.EventHandler(this.listadoGeneralToolStripMenuItem_Click);
             // 
             // vendedoresPorDistritoToolStripMenuItem
             // 
             this.vendedoresPorDistritoToolStripMenuItem.Name = "vendedoresPorDistritoToolStripMenuItem";
             this.vendedoresPorDistritoToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.vendedoresPorDistritoToolStripMenuItem.Text = "Vendedores por Distrito";
+            this.vendedoresPorDistritoToolStripMenuItem.Click += new System.EventHandler(this.vendedoresPorDistritoToolStripMenuItem_Click);
             // 
             // facturasPorVendedorToolStripMenuItem
             // 
             this.facturasPorVendedorToolStripMenuItem.Name = "facturasPorVendedorToolStripMenuItem";
             this.facturasPorVendedorToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.facturasPorVendedorToolStripMenuItem.Text = "Facturas por Vendedor";
+            this.facturasPorVendedorToolStripMenuItem.Click += new System.EventHandler(this.facturasPorVendedorToolStripMenuItem_Click);
             // 
             // facturasPorRangoDeFechaToolStripMenuItem
             // 
             this.facturasPorRangoDeFechaToolStripMenuItem.Name = "facturasPorRangoDeFechaToolStripMenuItem";
             this.facturasPorRangoDeFechaToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.facturasPorRangoDeFechaToolStripMenuItem.Text = "Facturas por rango de fecha";
+            this.facturasPorRangoDeFechaToolStripMenuItem.Click += new System.EventHandler(this.facturasPorRangoDeFechaToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -121,6 +125,7 @@
             this.salirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // MenuPrincipal
             // 
@@ -132,7 +137,8 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MenuPrincipal";
-            this.Text = "MenuPrincipal";
+            this.Text = "Mantenimiento de Vendedores";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
